@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "863387964660",
+    "firebase_url": "https://progettoit.firebaseio.com",
+    "project_id": "progettoit",
+    "storage_bucket": "progettoit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863387964660:android:8f64508dc3ee62fc",
+        "android_client_info": {
+          "package_name": "com.example.progettoit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "863387964660-u83kfhsflcvt7uu2sdddalpsk63lnltq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.progettoit",
+            "certificate_hash": "bf080eb6fbc35c6f9b1b84ae578a51e31ca08868"
+          }
+        },
+        {
+          "client_id": "863387964660-68sa9tstrdm0uoneak5maf73r82cfomh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.progettoit",
+            "certificate_hash": "dbbb363a2d59537c09df24fdc6dc39f0761a3a7a"
+          }
+        },
+        {
+          "client_id": "863387964660-icll07ic746pcerv1gueb7e9ipbd68a6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD37q5aDwwPVZ82uPHQh2o_SkIADT514y8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "863387964660-icll07ic746pcerv1gueb7e9ipbd68a6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

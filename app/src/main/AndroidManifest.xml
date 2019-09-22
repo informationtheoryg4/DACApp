@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.progettoit">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+
+
+    <application
+        android:largeHeap="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="DACApp"
+        android:roundIcon="@mipmap/ic_launcher_round"
+
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TextActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".MessagesActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ImagesActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".UsersActivity2"
+            android:screenOrientation="portrait"
+            android:label="Users" />
+        <activity
+            android:name=".UsersActivity"
+            android:screenOrientation="portrait"
+            android:label="Users" />
+        <activity android:name=".LoginActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".RegisterActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".SettingsActivity"
+            android:screenOrientation="portrait"
+            android:label="Settings" />
+        <activity
+            android:name=".StartActivity"
+            android:screenOrientation="portrait"
+            android:label="DACApp"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:label="DACApp"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
